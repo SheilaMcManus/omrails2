@@ -1,0 +1,30 @@
+$baseFontFamily: Arvo;
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.navbar-inner {
+	@include box-shadow(none !important);
+	border: 0;
+}
+
+.hero-unit h1 {
+	font-size: 48px;
+}
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a {
+		color: $gray;
+	}
+}
