@@ -28,3 +28,29 @@ body {
 		color: $gray;
 	}
 }
+
+/* Required for jQuery Masonry */
+.box {
+    margin: 5px;
+    padding: 10px;
+    font-size: 11px;
+    line-height: 1.4em;
+    float: left;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px #ccc;
+    width: 214px;
+}
+
+.box img {
+	display: block;
+	width: 100%;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+}
+
+.description {
+	margin: 10px 0 5px;
+}
